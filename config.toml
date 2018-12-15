@@ -1,4 +1,4 @@
-i# Configuration of Academic
+# Configuration of Academic
 # Documentation: https://sourcethemes.com/academic/
 #
 # This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
@@ -6,10 +6,10 @@ i# Configuration of Academic
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "http://homepages.rpi.edu/~liw14"
 
 # Title of your site
-title = "Academic"
+title = "PhD Candidate"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -34,7 +34,7 @@ hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
-enableGitInfo = false
+enableGitInfo = true
 
 [outputs]
   home = [ "HTML", "CSS", "RSS", "JSON" ]
@@ -52,22 +52,23 @@ enableGitInfo = false
 
   # Your details.
   name = "Wenting Li"
-  role = "PhD Student of Artificial Intelligence"
+  role = "PhD Candidate of Electrical Computer and System Engineering"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Rensselaer Polytech Institute", url = "https://www.rpi.edu/" } ]
+  organizations = [ { name = "Rensselaer Polytech Institute", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "lwt.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "liw14@rpi.edu"
-  address = "2408 21st street, apt6, Troy, USA" 
+  address = "2408 21st Street, SPT 6, Troy, NY 12180, USA"
+  office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "888 888 88 88"
   skype = ""
   telegram = ""
-  keybase = "PhD student in the Electrical Computer and System Engineering"  # Your keybase.io username.
+  keybase = ""  # Your keybase.io username.
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
